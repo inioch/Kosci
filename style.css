@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(49,40,138);
+    background: linear-gradient(0deg, rgba(49,40,138,1) 25%, rgba(39,93,120,1) 76%); 
+    color: rgba(255, 255, 255, 0.61);
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    height: 100vh;
+    overflow: hidden;
+}
+h1{
+    padding: 3rem;
+    text-align: center;
+    font-size: 50px;  
+}
+h2{
+    margin-top: 1rem;
+    padding: 3rem;
+    text-align: center;
+    font-size: 45px;  
+}
+h4{
+    margin-top: 0.75rem;
+    text-align: center;
+}
+button{
+    color: rgba(255, 255, 255, 0.596);
+    background-color: rgb(85, 158, 201);
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    width: 70px;
+    height: 70px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(33, 126, 180);
+    transition: 1s ease;
+}
+.table{
+    display: flex;
+    justify-content: space-around;
+}
+.table h3{
+    font-size: 40px;
+}
+p{
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 35px;
+}
+.picking{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+.gracz{
+    padding: 2rem;
+}
+.border{
+    border: 2px solid rgb(33, 126, 180);
+}
